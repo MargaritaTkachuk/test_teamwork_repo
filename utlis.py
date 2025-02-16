@@ -7,7 +7,7 @@ def tobase(n, base):
         place *= 10
     return new
 
-def number_is_step_five(n):
+def step_five(n):
     if n <= 0:
         return False
     while n % 5 == 0:
